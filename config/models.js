@@ -122,3 +122,8 @@ module.exports.models = {
 
 
 };
+
+module.exports.models = {
+  connection: 'mongo',
+  migrate: 'safe'
+};

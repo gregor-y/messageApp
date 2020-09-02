@@ -36,4 +36,9 @@ module.exports.session = {
   //   return !!req.path.match(req._sails.LOOKS_LIKE_ASSET_RX);
   // },
 
+  // store session in a distributed Redis kv store
+  adapter: 'redis',
+  host: process.env.REDIS_HOST || 'localhost',
+
+
 };

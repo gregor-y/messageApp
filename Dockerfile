@@ -1,4 +1,4 @@
-ROM node:4.4.5
+FROM node:4.4.5
 ENV LAST_UPDATED 20160617T185400
 
 # Copy source code
